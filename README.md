@@ -1,4 +1,8 @@
-## json-highlight
+
+[![npm version](https://img.shields.io/npm/v/json-stringfy.svg?style=flat)](https://www.npmjs.com/package/json-stringfy)
+
+
+### json-highlight
 json high light plugin
 
 
