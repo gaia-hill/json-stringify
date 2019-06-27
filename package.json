@@ -1,0 +1,29 @@
+{
+  "name": "json-highlight",
+  "version": "0.0.1",
+  "description": "json high light plugin",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development redskull2 start",
+    "build": "NODE_ENV=production redskull2 build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:okmengzhilin/json-highlight.git"
+  },
+  "keywords": [
+    "json",
+    "highlight"
+  ],
+  "author": "Zhouxianglin",
+  "license": "ISC",
+  "redskull": {
+    "extra": false,
+    "port": 3005,
+    "hash": false,
+    "openBrowser": false,
+    "favico": "./src/favicon.ico",
+    "src": "./src",
+    "entry": "index.js"
+  }
+}

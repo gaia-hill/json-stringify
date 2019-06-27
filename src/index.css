@@ -1,0 +1,50 @@
+.json-container {
+    padding:5px;
+    margin:5px;
+    font-size:14px
+}
+.json-container .key {
+    position:relative
+}
+.json-container .key.errorKey:before {
+    box-sizing:border-box!important;
+    content:"\D7";
+    color:#f5222d;
+    position:absolute;
+    display:inline-block;
+    height:12px;
+    width:14px;
+    text-align:center;
+    line-height:13px;
+    left:-18px;
+    top:calc(50% - 6px);
+    font-weight:700;
+    font-size:23px
+}
+.json-container .key.warningKey:after, .json-container .key.warningKey:before {
+    box-sizing:border-box!important;
+    height:13px;
+    width:15px;
+    position:absolute;
+    display:inline-block;
+    left:-22px;
+    top:calc(50% - 6px);
+    line-height:13px
+}
+.json-container .key.warningKey:before {
+    content:"";
+    border:7px solid transparent;
+    border-bottom:13px solid #9c5903;
+    border-top:none;
+    z-index:99
+}
+.json-container .key.warningKey:after {
+    content:"!";
+    color:#fff;
+    font-size:12px;
+    z-index:100;
+    text-align:center;
+    -webkit-transform:scale(.8);
+    transform:scale(.8);
+    top:calc(50% - 5px)
+}

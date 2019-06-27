@@ -1,0 +1,7 @@
+src/template
+src/favicon.ico
+src/test.js
+test
+webpack
+.gitignore
+package-lock.json
