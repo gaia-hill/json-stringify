@@ -5,7 +5,9 @@ json high light plugin
 
 ### 安装
 
-`npm i json-highlight`
+(highlight被占用)
+
+`npm i json-stringfy`
 
 
 
@@ -14,11 +16,11 @@ json high light plugin
 ```javascript
 //  jsonHeightLight(json[, options])
 
-import jsonHeightLight from 'json-highlight'
+import jsonHeightLight from 'json-stringfy'
 
 // 或者使用构建好的
 import jsonHeightLight from 'json-highlight/dist/index.js'
-import 'json-highlight/dist/index.css'
+import 'json-stringfy/dist/index.css'
 
 const json = '{"test_one":"value","test_two":{"subkey_one":"value","subkey_two":"value"}}'
 document.querySelector("pre").innerHTML = jsonHeightLight(json)  //需要将结果放到pre标签中
