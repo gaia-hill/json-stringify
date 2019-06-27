@@ -3,7 +3,7 @@ json high light plugin
 
 
 
-###安装
+### 安装
 
 `npm i json-highlight`
 
