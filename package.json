@@ -1,6 +1,6 @@
 {
   "name": "json-stringfy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "json high light plugin",
   "main": "src/index.js",
   "scripts": {
