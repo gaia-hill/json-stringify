@@ -9,7 +9,8 @@
   },
   "keywords": [
     "json",
-    "highlight"
+    "highlight",
+    "jsonpath"
   ],
   "repository": {
     "type": "git",
